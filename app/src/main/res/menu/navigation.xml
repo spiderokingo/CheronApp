@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_pair"
+        android:icon="@mipmap/bluetooth_normal_nav"
+        android:title="@string/title_pair" />
+
+    <item
+        android:id="@+id/navigation_light"
+        android:icon="@mipmap/light_normal_nav"
+        android:title="@string/title_light" />
+
+    <item
+        android:id="@+id/navigation_streaming"
+        android:icon="@mipmap/music_normal_nav"
+        android:title="@string/title_streaming" />
+
+    <item
+        android:id="@+id/navigation_timer"
+        android:icon="@mipmap/timer_normal_nav"
+        android:title="@string/title_timer" />
+
+    <item
+        android:id="@+id/navigation_more"
+        android:icon="@mipmap/more_normal_nav"
+        android:title="@string/title_more" />
+
+</menu>
