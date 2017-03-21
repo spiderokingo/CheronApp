@@ -3,6 +3,7 @@ package com.cherondesigns.cheronapp;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.design.widget.BottomNavigationView;
+import android.support.v4.app.Fragment;
 import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
@@ -68,6 +69,10 @@ public class MainActivity extends AppCompatActivity {
         streamingBtn.setOnClickListener(onClickListener);
         timerBtn.setOnClickListener(onClickListener);
         moreBtn.setOnClickListener(onClickListener);
+    }
+
+    public void switchFragment(Fragment target){
+        getSupportFragmentManager().beginTransaction().replace(R.id.content, target).commit();
     }
 
     private void setToolbar() {

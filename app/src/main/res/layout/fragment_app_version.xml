@@ -11,13 +11,36 @@
         android:orientation="vertical"
         android:gravity="center"
         android:layout_centerInParent="true"
+        android:paddingBottom="150dp"
         >
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="0dp"
-            android:text="@string/timer_fragment"
+            android:text="@string/app_name"
+            android:gravity="center"
+            android:textColor="@color/colorTextPrimary"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            android:text="@string/text_version"
+            android:gravity="center"
+            android:textColor="@color/colorTextPrimary"
+            android:textSize="16sp"
+            android:layout_margin="10dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            android:text="@string/text_app_version"
+            android:gravity="center"
             android:textColor="@color/colorTextPrimary"
             android:textSize="20sp"
             android:textStyle="bold" />
