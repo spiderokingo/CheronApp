@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">CheronApp</string>
+    <string name="title_pair">PAIR</string>
+    <string name="title_light">LIGHT</string>
+    <string name="title_streaming">STREAMING</string>
+    <string name="title_timer">TIMER</string>
+    <string name="title_more">MORE</string>
+
+    <string name="title_activity_launcher">LauncherActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="Cheron_Launcher">CHARON APP</string>
+
+    <string name="choose_language">Choose Your Language</string>
+    <string name="restore_default_setting">Restore Default Setting</string>
+    <string name="app_version">App Version</string>
+
+    <string name="text_version">version</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="light_fragment">Light Fragment</string>
+    <string name="streaming_fragment">Streaming Fragment</string>
+    <string name="timer_fragment">Timer Fragment</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>
